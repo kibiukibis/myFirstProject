@@ -1,0 +1,14 @@
+//base
+@import "base/reset";
+@import "base/fonts";
+//font Awesome
+@import '../../node_modules/font-awesome/scss/_variables.scss';
+$fa-font-path: "../../node_modules/font-awesome/fonts";
+@import '../../node_modules/font-awesome/scss/font-awesome.scss';
+// utils
+@import "utils/all";
+//components
+//layout
+@import "layout/all";
+//main pages
+@import "pages/index";
