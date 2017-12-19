@@ -2,9 +2,8 @@
 $fa-font-path: "../../node_modules/font-awesome/fonts";
 @import '../../node_modules/font-awesome/scss/font-awesome.scss';
 header {
-    background: $color-white;
     .social-menu {
-        box-shadow: 0 5px 10px grey;
+        box-shadow: 0 5px 10px $color-shadow;
         .container {
             display: flex;
             justify-content: space-between;
@@ -23,6 +22,35 @@ header {
             justify-content: space-between;
             a {
                 color: $color-text;
+                margin: 0 5px;
+                line-height: 45px;
+                font-size: 14px;
+            }
+            .fa {
+                margin-left: 30px;
+            }
+        }
+    }
+}
+
+.nav-menu {
+    .container {
+        height: 160px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: 220px;
+        }
+        a {
+            text-transform: uppercase;
+            margin-left: 20px;
+            font-size: 14px;
+            color: $color-text;
+            transition: .2s;
+            &:hover {
+                color: $color-blue;
+                ;
             }
         }
     }
