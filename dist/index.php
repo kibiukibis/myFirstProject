@@ -6,7 +6,7 @@
 <body>
 
 <?php include 'parts/header.php' ?>
-<?php include 'parts/main.php' ?>
+<h1>Hello</h1>
 
 
 <script src="js/bundle.min.js"></script>

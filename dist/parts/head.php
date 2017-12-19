@@ -2,9 +2,9 @@
   <meta charset="utf-8">
   <meta name="author" content="">
   <meta name="description" content="Boiler Template">
-  <meta name="author" content="Karolis Kerpys">
+  <meta name="author" content="Martynas Kybartas">
   <link rel="shortcut icon" href="img/king.png" type="image/x-icon">
-  <title>Boiler Template</title>
+  <title>myFirstProject</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css?v=026">

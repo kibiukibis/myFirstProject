@@ -1,0 +1,29 @@
+@import '../../node_modules/font-awesome/scss/_variables.scss';
+$fa-font-path: "../../node_modules/font-awesome/fonts";
+@import '../../node_modules/font-awesome/scss/font-awesome.scss';
+header {
+    background: $color-white;
+    .social-menu {
+        box-shadow: 0 5px 10px grey;
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .social {
+            display: flex;
+            justify-content: space-between;
+            .fa {
+                color: $color-text;
+                margin: 0 5px;
+                line-height: 45px;
+            }
+        }
+        .contacts {
+            display: flex;
+            justify-content: space-between;
+            a {
+                color: $color-text;
+            }
+        }
+    }
+}
