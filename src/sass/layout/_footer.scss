@@ -1,0 +1,51 @@
+footer {
+    .get-info {
+        background: $color-blue;
+        .container {
+            height: 110px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: $color-shadow;
+        }
+        a {
+            @include button($color-shadow)
+        }
+        h3 {
+            font-size: 24px;
+            color: $color-shadow;
+            text-transform: uppercase;
+        }
+    }
+    .info-block {
+        background: #161616;
+        padding: 40px 0;
+    }
+    .container {
+        @include text-regular;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrapper:nth-child(3n+1) {
+        width: 25%;
+    }
+    .wrapper:nth-child(2),
+    .wrapper:nth-child(3) {
+        width: 20%;
+        li:before {
+            content: '\f054';
+            font-family: 'fontawesome';
+            color: $color-blue;
+            margin-right: 6px;
+        }
+    }
+    h3 {
+        color: $color-blue;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    p {}
+}

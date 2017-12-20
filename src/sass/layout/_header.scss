@@ -2,6 +2,7 @@
 $fa-font-path: "../../node_modules/font-awesome/fonts";
 @import '../../node_modules/font-awesome/scss/font-awesome.scss';
 header {
+    background: rgba(0, 0, 0, 0.1);
     .social-menu {
         box-shadow: 0 5px 10px $color-shadow;
         .container {

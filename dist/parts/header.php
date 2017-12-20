@@ -39,12 +39,12 @@
                 </a>
             
             <nav>
-                <a href="">Home</a>
+                <a href="index.php">Home</a>
                 <a href="">about</a>
                 <a href="">pages</a>
                 <a href="">projects</a>
-                <a href="">blog</a>
-                <a href="">contacts</a>
+                <a href="blog.php">blog</a>
+                <a href="contact.php">contacts</a>
             </nav>
             </div>
         </div>

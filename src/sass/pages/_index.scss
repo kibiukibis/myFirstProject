@@ -7,7 +7,7 @@ section.main {
     .arrow-left,
     .arrow-right {
         position: absolute;
-        top: 50%;
+        top: 60%;
         color: $color-white;
         border: 2px solid $color-white;
         font-size: 40px;
@@ -27,7 +27,7 @@ section.main {
     }
     .title {
         position: absolute;
-        top: 50%;
+        top: 70%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
@@ -47,7 +47,7 @@ section.main {
     }
 }
 
-section.feature {
+section.features {
     background: $color-shadow;
     padding: 50px 0;
     .container {
@@ -57,8 +57,84 @@ section.feature {
     }
     .wrapper {
         width: 30%;
+        margin-bottom: 20px;
     }
     .fa {
-        font-size: 30px;
+        font-size: 40px;
+    }
+    h2 {
+        color: $color-blue;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    p {
+        @include text-regular;
+    }
+}
+
+section.recent-projects {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    h2 {
+        @include section-header();
+    }
+    .slider-box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 55px;
+    }
+    .slide {
+        width: 30%;
+    }
+    img {
+        width: 100%;
+        cursor: pointer;
+    }
+    .navigation {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+        .fa {
+            color: $color-shadow;
+            background: $color-blue;
+            padding: 4px 8px;
+            margin-left: 4px;
+            cursor: pointer;
+        }
+    }
+}
+
+section.counters {
+    background: $color-blue;
+    .container {
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $color-shadow;
+        .wrapper {
+            width: 25%;
+        }
+        h2 {
+            position: relative;
+            font-size: 50px;
+            font-weight: 700;
+            color: $color-shadow;
+            &:after {
+                content: '';
+                display: inline-block;
+                position: absolute;
+                left: 50%;
+                translate: transformX(-50%);
+                bottom: -10px;
+                height: 2px;
+                width: 30px;
+                background: $color-shadow;
+            }
+        }
+        h3 {
+            color: $color-shadow;
+            margin-top: 20px;
+        }
     }
 }

@@ -21,56 +21,65 @@
     <a href="" class="button-info">about us</a>
 </div>
 </section>
-<section class="feature">
-    <div class="container">
-        <div class="wrapper">
-        <i class="fa fa-twitch" aria-hidden="true"></i>
-            <h5>Lorem lorem</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima et quibusdam suscipit quia, in omnis rerum numquam.</p>
-        </div>
-       
-    </div>
-    <div class="container">
-        <div class="wrapper">
-        <i class="fa fa-twitch" aria-hidden="true"></i>
-            <h5>Lorem lorem</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima et quibusdam suscipit quia, in omnis rerum numquam.</p>
-        </div>
-       
-    </div>
-    <div class="container">
-        <div class="wrapper">
-        <i class="fa fa-twitch" aria-hidden="true"></i>
-            <h5>Lorem lorem</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima et quibusdam suscipit quia, in omnis rerum numquam.</p>
-        </div>
-       
-    </div>
-    <div class="container">
-        <div class="wrapper">
-        <i class="fa fa-twitch" aria-hidden="true"></i>
-            <h5>Lorem lorem</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima et quibusdam suscipit quia, in omnis rerum numquam.</p>
-        </div>
-       
-    </div>
-    <div class="container">
-        <div class="wrapper">
-        <i class="fa fa-twitch" aria-hidden="true"></i>
-            <h5>Lorem lorem</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima et quibusdam suscipit quia, in omnis rerum numquam.</p>
-        </div>
-       
-    </div>
-    <div class="container">
-        <div class="wrapper">
-        <i class="fa fa-twitch" aria-hidden="true"></i>
-            <h5>Lorem lorem</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima et quibusdam suscipit quia, in omnis rerum numquam.</p>
-        </div>
-       
-    </div>
+
+<section class="features">
+  <div class="container">
+    <?php include 'parts/feature.php'?>
+    <?php include 'parts/feature.php'?>
+    <?php include 'parts/feature.php'?>
+    <?php include 'parts/feature.php'?>
+    <?php include 'parts/feature.php'?>
+    <?php include 'parts/feature.php'?>
+  </div>
 </section>
+
+<section class="counters">
+  <div class="container">
+  <div class="wrapper">
+    <h2>456</h2>
+    <h3>happy clients</h3>
+  </div>
+  <div class="wrapper">
+    <h2>456</h2>
+    <h3>happy clients</h3>
+  </div>
+  <div class="wrapper">
+    <h2>456</h2>
+    <h3>happy clients</h3>
+  </div>
+  <div class="wrapper">
+    <h2>456</h2>
+    <h3>happy clients</h3>
+  </div>
+  
+  </div>
+</section>
+<section class="recent-projects">
+  <div class="container">
+    <h2>recent-projects</h2>
+    <div class="slider-box">
+      <div class="slide">
+        <img src="img/projects/main.jpeg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/projects/main.jpeg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/projects/main.jpeg" alt="">
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="left">
+      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      </div>
+      <div class="right">
+      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+</section>
+<?php include 'parts/footer.php' ?>
+
 
 <script src="js/bundle.min.js"></script>
 </body>

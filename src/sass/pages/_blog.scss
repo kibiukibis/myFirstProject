@@ -1,0 +1,111 @@
+section.header {
+    background: $color-blue;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 65px;
+        color: $color-shadow;
+        h4 {
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        h5 {
+            font-size: $size-14px;
+        }
+    }
+}
+
+section.blog {
+    .container {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        .blog-main {
+            width: 68%;
+        }
+        .blog-search {
+            width: 28%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+section.post {
+    text-align: left;
+    margin-bottom: 80px;
+    position: relative;
+    padding-bottom: 60px;
+    .image {
+        position: relative;
+    }
+    img {
+        width: 100%;
+    }
+    .date {
+        position: absolute;
+        top: 70%;
+        left: 0;
+        color: $color-shadow;
+        background: $color-blue;
+        text-align: left;
+        padding: 20px 10px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    h3 {
+        font-size: 24px;
+        color: $color-text;
+        margin: 20px 0;
+    }
+    p {
+        @include text-regular();
+    }
+    h4 {
+        display: none;
+    }
+    .read-more {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        @include button($color-shadow);
+        width: 140px;
+        background: $color-blue;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+    }
+}
+
+section.recent-posts {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    .image {
+        width: 25%;
+    }
+    .post-text {
+        width: 72%;
+    }
+    img {
+        width: 100%;
+    }
+    .date {
+        display: none;
+    }
+    h3 {
+        @include text-regular();
+    }
+    p {
+        display: none;
+    }
+    h4 {
+        display: block;
+        @include text-regular();
+    }
+    .read-more {
+        display: none;
+    }
+}
